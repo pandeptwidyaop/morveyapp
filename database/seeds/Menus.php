@@ -35,11 +35,32 @@ class Menus extends Seeder
           ],
           //4
           [
-            'nama_menu' => 'PENJUALAN',
-            'link_menu' => 'penjualan',
-            'icon_menu' => 'fa fa-shopping-cart',
-            'id_menu' => 'menupenjualan'
+            'nama_menu' => 'PEMASUKAN',
+            'link_menu' => 'pemasukan',
+            'icon_menu' => 'fa fa-download',
+            'id_menu' => 'menupemasukan'
           ],
+          //5
+          [
+            'nama_menu' => 'PENGELUARAN',
+            'link_menu' => 'pengeluaran',
+            'icon_menu' => 'fa fa-upload',
+            'id_menu' => 'menupengeluaran'
+          ],
+          //6
+          [
+            'nama_menu' => 'USER',
+            'link_menu' => 'user',
+            'icon_menu' => 'fa fa-user',
+            'id_menu' => 'menuuser'
+          ],
+          //7
+          [
+            'nama_menu' => 'MANAJEMEN USER',
+            'link_menu' => 'usermanagement',
+            'icon_menu' => 'fa fa-users',
+            'id_menu' => 'menumanagemenuser'
+          ]
         ]);
     }
 }
